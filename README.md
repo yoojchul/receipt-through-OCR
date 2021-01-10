@@ -1,4 +1,4 @@
-# receipt-through-OCR
+# Recognition of receipts with Google OCR
 
 This program finds out corporate names, registration numbers and sale amounts of printed receipts with Google OCR. It will be utilized for the automatic reporter of a value added tax. 
 
