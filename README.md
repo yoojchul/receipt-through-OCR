@@ -89,6 +89,6 @@ $ python3 rcpt.py rules.txt 20201221_191338.jpg
 -지불액  
 27,600  
 
-The landscaped image can also be processed. 
+The landscaped image can also be processed.   
 ![fig2](https://user-images.githubusercontent.com/15276052/104122446-6203b580-5388-11eb-992f-894ef28c6526.PNG)
 
