@@ -6,15 +6,10 @@ It is composed of two functions and main. The first function detect_text() recog
 
 
 index: sequence number of the outputs from detect_text().  Used with >, =, < 
-
 format: form which specifies. “_” means any letter. 
-
 string: mark including ‘string’
-
 location: relative position of the other.  Used with < (left), >(right), ^(upper), _(under)
-
 action: operation for mark(not implemented yet)
-
 
 An example of a rule file is as follows.  
 
