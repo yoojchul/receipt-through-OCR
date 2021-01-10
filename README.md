@@ -51,8 +51,8 @@ The flow of parser() is like a automata and the diagram is as follows.
 The output of parser() is   
 
 [['-상호', [None, None, '상호', None, None],   
-    &nbsp;[None, None, '(주)', None, None],   
-    ['<3', None, '~대표', None, None]],   
+ * [None, None, '(주)', None, None],   
+ * ['<3', None, '~대표', None, None]],   
 ['-사업자등록번호', [None, '___-__-_____', None, None, None],   
     [None, None, '사업자번호', None, None],   
 ['<10', None, '번호', None, None]],   
