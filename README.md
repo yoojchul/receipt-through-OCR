@@ -51,10 +51,10 @@ The flow of parser() is like a automata and the diagram is as follows.
 The output of parser() is   
 
 [['-상호', [None, None, '상호', None, None],   
- > [None, None, '(주)', None, None],   
- > ['<3', None, '~대표', None, None]],   
+&nbsp;&nbsp;&nbsp;&nbsp;[None, None, '(주)', None, None],   
+&nbsp;&nbsp;&nbsp;&nbsp;['<3', None, '~대표', None, None]],   
 ['-사업자등록번호', [None, '___-__-_____', None, None, None],   
-    [None, None, '사업자번호', None, None],   
+&nbsp;&nbsp;&nbsp;&nbsp;[None, None, '사업자번호', None, None],   
 ['<10', None, '번호', None, None]],   
 ['-내실금액', [None, None, '내실금액', None, None]],   
 ['-결제금액', [None, None, '결제금액', None, None]],   
@@ -63,11 +63,11 @@ The output of parser() is
 ['-승인금액:', [None, None, '승인금액', None, None]],   
 ['-받을금액:', [None, None, '받을금액', None, None]],   
 ['-지불액', [None, None, None, '>내실금액', None],   
-   [None, None, None, '>결제금액', None],  
-   [None, None, None, '>합계금액', None],  
-   [None, None, None, '>합계', None],   
-   [None, None, None, '>승인금액', None],   
-   [None, None, None, '>받을금액', None]]]  
+&nbsp;&nbsp;&nbsp;&nbsp;   [None, None, None, '>결제금액', None],  
+&nbsp;&nbsp;&nbsp;&nbsp;   [None, None, None, '>합계금액', None],  
+&nbsp;&nbsp;&nbsp;&nbsp;   [None, None, None, '>합계', None],   
+&nbsp;&nbsp;&nbsp;&nbsp;   [None, None, None, '>승인금액', None],   
+&nbsp;&nbsp;&nbsp;&nbsp;   [None, None, None, '>받을금액', None]]]  
 
 The program is executed with a rule file and an image file. 
 
