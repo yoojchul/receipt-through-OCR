@@ -5,11 +5,11 @@ This program finds out corporate names, registration numbers and sale amounts of
 It is composed of two functions and main. The first function detect_text() recognizes all characters from image files.  The second function parser() parses rules which helps to isolate marks(corporate names and numbers) from the outputs of detect_text(), and converts them to a list.  There are five reserved words, ‘index’, ‘format’, ‘string’, ‘location’ and ‘action’ which represent conditions for marks.  
 
 
-index: sequence number of the outputs from detect_text().  Used with >, =, < 
-format: form which specifies. “_” means any letter. 
-string: mark including ‘string’
-location: relative position of the other.  Used with < (left), >(right), ^(upper), _(under)
-action: operation for mark(not implemented yet)
+index: sequence number of the outputs from detect_text().  Used with >, =, <   
+format: form which specifies. “_” means any letter.   
+string: mark including ‘string’  
+location: relative position of the other.  Used with < (left), >(right), ^(upper), _(under)  
+action: operation for mark(not implemented yet)  
 
 An example of a rule file is as follows.  
 
