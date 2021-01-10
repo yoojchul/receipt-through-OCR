@@ -71,6 +71,8 @@ The output of parser() is
 
 The program is executed with a rule file and an image file. 
 
+![fig1](https://user-images.githubusercontent.com/15276052/104122362-f3bef300-5387-11eb-9fe6-9493bb681fda.PNG)
+
 $ python3 rcpt.py rules.txt 20201221_191338.jpg
    
  -상호  
